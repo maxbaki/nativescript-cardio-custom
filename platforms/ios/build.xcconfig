@@ -1,0 +1,2 @@
+OTHER_LDFLAGS = $(inherited) -lc++ -lCardIO -lopencv_core -lopencv_imgproc -framework CoreGraphics -framework Accelerate -framework AVFoundation -framework AudioToolbox -framework CoreMedia -framework CoreVideo -framework QuartzCore -framework MobileCoreServices -framework OpenGLES
+LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/../../node_modules/thinkdigital-nativescript-cardio/platforms/ios"
