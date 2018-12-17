@@ -27,7 +27,7 @@ try {
           var scanViewController = CardIOPaymentViewController.new().initWithPaymentDelegate(self);
           scanViewController.delegate = self;
           scanViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-          scanViewController.hideCardIOLogo=YES;
+          scanViewController.hideCardIOLogo=YES;          
           viewController.presentViewControllerAnimatedCompletion(scanViewController,true,null);
         });
 
